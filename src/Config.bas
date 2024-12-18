@@ -11,7 +11,7 @@ End Type
 
 Function config() As Export()
   Dim EXPORTS(1 To 1) As Export 'In (1 To <number of exports>) for 2 exports it should be (1 To 2) '
-  ' Exports defined here'
+  ' Exports defined here '
   EXPORTS(1).startCell = 1
   EXPORTS(1).endCell = 1
   EXPORTS(1).pane = "HolySheetItWorks"

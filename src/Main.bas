@@ -1,6 +1,6 @@
 Attribute VB_Name = "Main"
 
-Sub ExportPane()
+Sub ExportData()
   Dim EXPORTS() As config.Export
   EXPORTS = config.config()
   Util.ExportToWord EXPORTS

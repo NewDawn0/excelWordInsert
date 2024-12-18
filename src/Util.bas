@@ -17,7 +17,8 @@ Sub CheckData(ByRef Exports() As config.Export)
         Exit For
       End If
     Next ws
-    If Not paneExits Then
+    
+    If Not paneExists Then
       MsgBox "The pane '" & Exports(i).pane & "' does not exist in this Workbook", vbCritical, "Pane not found"
       End ' Abort Since the data does not exist '
     End If
